@@ -11,9 +11,9 @@ driver.get('https://mp.weixin.qq.com/')  # 打开目标网址
 
 time.sleep(1)
 driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[1]/div/span/input').clear()
-driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[1]/div/span/input').send_keys('linzeyu@live.com')  # 输入账号
+driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[1]/div/span/input').send_keys('XXXXX@live.com')  # 输入账号
 driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[2]/div/span/input').clear()
-driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[2]/div/span/input').send_keys('Lzy&1123')  # 输入密码
+driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[1]/div[2]/div/span/input').send_keys('XXXXXX')  # 输入密码
 driver.find_element_by_xpath('.//*[@id="header"]/div[2]/div/div/div[1]/form/div[4]/a').click()  # 点击登入按钮
 
 time.sleep(8)
