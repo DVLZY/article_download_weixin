@@ -1,7 +1,8 @@
 # pycharm
 # python3.8.2
 # utf-8
-#todo(lin) 使用时间戳清洗数据
+# todo(lin) 使用时间戳清洗数据，过滤出当天的文章
+# todo(lin) 引入读取txt文本的功能，批量访问微信号
 import re
 import time
 from selenium import webdriver
